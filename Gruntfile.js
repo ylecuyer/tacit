@@ -44,7 +44,7 @@ module.exports = function (grunt) {
             compass: true
           },
           files: {
-            'dist/<%= pkg.name %>-<%= pkg.version %>.min.css': 'scss/main.scss'
+            'dist/<%= pkg.name %>.min.css': 'scss/main.scss'
           }
         },
         uncompressed: {
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
             style: 'expanded'
           },
           files: {
-            'dist/<%= pkg.name %>-<%= pkg.version %>.css': 'scss/main.scss'
+            'dist/<%= pkg.name %>.css': 'scss/main.scss'
           }
         }
       },
